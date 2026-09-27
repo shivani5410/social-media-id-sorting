@@ -1,0 +1,28 @@
+========================================
+SOCIAL MEDIA APP ID SORTING ASSIGNMENT
+========================================
+
+Original Unsorted IDs:
+324 125 456 218 102 389 275 147 
+
+----------------------------------------
+1. MERGE SORT EXECUTION
+----------------------------------------
+Pass 1 (Size 1 -> 2): 125 324 218 456 102 389 147 275
+Pass 2 (Size 2 -> 4): 125 218 324 456 102 147 275 389
+Pass 3 (Size 4 -> 8): 102 125 147 218 275 324 389 456
+Final Sorted Array (Merge Sort): 
+102 125 147 218 275 324 389 456
+
+----------------------------------------
+2. QUICK SORT EXECUTION
+----------------------------------------
+Initial Pivot: 147
+Partition 1 Result: 125 102 147 324 456 218 389 275
+Subsequent Partitions Complete.
+Final Sorted Array (Quick Sort): 
+102 125 147 218 275 324 389 456
+
+========================================
+Execution Successful. Both algorithms verified.
+========================================
